@@ -1,0 +1,16 @@
+{
+  "name": "archer-loader",
+  "version": "1.0.0",
+  "description": "a simple javascript loader",
+  "main": "archer-loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loader",
+    "spinner",
+    "spin"
+  ],
+  "author": "hsutinghuan",
+  "license": "ISC"
+}
