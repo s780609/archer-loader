@@ -6,15 +6,15 @@ a simple javascript loader
 `npm install archer-loader`
 
 ## method
-`show()` => show the loader
-
 #### `show()` method => display the loader
 | parameters  |  type    |    description     |
 | -----------------|:-------- |:----------------------- |
 |  color       |  string  |  color code
 |  speed       |  number  |  speed of loader
 |  text        |  string  |  display text   
-#### `cloase()` => cloase the loader
+
+
+#### `close()` => close the loader
 
 ## Useage
 first, import loader      
@@ -22,3 +22,5 @@ first, import loader
 then use `show()` and `close()` methods      
 `loader.show()`   or        
 `loader.close()`      
+or use parameters to add color, text , and change speed as below
+`loader.show("#255AC4", 1.5, "Loading...");`
