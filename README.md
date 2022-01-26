@@ -10,7 +10,7 @@ a simple javascript loader
 | parameters  |  type    |    description     |
 | -----------------|:-------- |:----------------------- |
 |  color       |  string  |  color code
-|  speed       |  number  |  speed of loader
+|  speed       |  number  |  speed of loader (second)
 |  text        |  string  |  display text   
 
 
