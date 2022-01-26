@@ -24,4 +24,7 @@ then use `show()` and `close()` methods
 `loader.close()`      
 or use parameters to add color, text , and change speed as below
 `loader.show("#255AC4", 1.5, "Loading...");`  
+
+[image](https://imgur.com/a/0G8hGAp)
 ![](https://imgur.com/a/0G8hGAp)
+![](https://i.imgur.com/3rQeRqK.jpg)
