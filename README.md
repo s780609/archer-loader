@@ -34,12 +34,20 @@ loader.close();
 ```
 
 ## Useage
-### create-react-app, vue-cli, or angular project 
-first, import loader      
-`import loader from 'archer-loader';`      
-then use `show()`
-or use parameters to add color, text , and change speed as below  
-`loader.show("#255AC4", 1.5, "Loading...");`  
+### In create-react-app, vue-cli, or angular project 
+first, import loader   
+```javascript
+import loader from 'archer-loader';
+```
+
+then use `show()` method to display the loader   
+```javascript
+loader.show();
+```  
+Also can use parameters to add color, text , and change speed as below  
+```javascript
+loader.show("#255AC4", 1.5, "Loading...");
+```  
 
 when don't want the loader display, use `close()` to close the loader
 
