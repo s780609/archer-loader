@@ -1,22 +1,37 @@
 # archer-loader
 ## description
-a simple javascript loader(UI)  
+a simple javascript UI loader  
+It will display a rotating 1/4 colored circle
+
+image:    
+![](https://i.imgur.com/3rQeRqK.jpg)
 
 ## Install
 `npm install archer-loader`
 
 ## method
-#### `show()` method => display the loader
+#### `show()`
+display the loader
 when use `show()` can also use parameters to change color, speed, or text     
-parameters are as below 
+sample code:    
+```javascript
+loader.show("#255AC4", 1.5, "Loading...");
+```
+
+parameters are as below    
 | parameters  |  type    |    description     |
 | -----------------|:-------- |:----------------------- |
 |  color       |  string  |  color code
 |  speed       |  number  |  speed of loader (seconds)
-|  text        |  string  |  display text   
+|  text        |  string  |  display text under rotating circle 
 
 
-#### `close()` => close the loader
+#### `close()` 
+close the loader    
+sample code:    
+```javascript
+loader.close();
+```
 
 ## Useage
 ### create-react-app, vue-cli, or angular project 
@@ -25,12 +40,11 @@ first, import loader
 then use `show()`
 or use parameters to add color, text , and change speed as below  
 `loader.show("#255AC4", 1.5, "Loading...");`  
-![](https://i.imgur.com/3rQeRqK.jpg)
 
 when don't want the loader display, use `close()` to close the loader
 
 ### Html 
-In html
+If only use in a `html`
 example:
 ```html
     <script type="module">
