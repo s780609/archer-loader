@@ -51,12 +51,13 @@ loader.show("#255AC4", 1.5, "Loading...");
 
 when don't want the loader display, use `close()` to close the loader
 
-### Html 
-If only use in a `html`
+### Use UNPKG's CDN
 example:
+use dist folder
 ```html
-    <script type="module">
-        import loader from "./node_modules/archer-loader/archer-loader.js"
+    <script src="https://unpkg.com/archer-loader@1.1.2/dist/archer-loader.cdn.js">
+    </script>
+    <script>
         loader.show("#5D1000", 2.5, "123");
         //loader.close();
     </script>

@@ -1,7 +1,5 @@
 var loader = loader || {};
 
-//window.top.loader = loader;
-
 loader.show = async function (color, speed, text) {
   if (!color) {
     color = `#000000`;
