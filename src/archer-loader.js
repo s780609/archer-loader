@@ -1,4 +1,4 @@
-let loader = {};
+var loader = {};
 
 loader.show = async function (color, speed, text) {
   if (!color) {
