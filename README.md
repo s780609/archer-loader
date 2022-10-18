@@ -1,7 +1,7 @@
 # archer-loader
 ## description
 a simple javascript UI loader  
-It will display a rotating 1/4 colored circle
+It will display a rotating 1/4 colored circle, and produce a background div to cover the screen.
 
 image:    
 ![](https://i.imgur.com/3rQeRqK.jpg)
@@ -21,7 +21,7 @@ loader.show("#255AC4", 1.5, "Loading...");
 parameters are as below    
 | parameters  |  type    |    description     |
 | -----------------|:-------- |:----------------------- |
-|  color       |  string  |  color code
+|  color       |  string  |  color code (change color of the circle and text's background)
 |  speed       |  number  |  speed of loader (seconds)
 |  text        |  string  |  display text under rotating circle 
 
@@ -55,10 +55,15 @@ when don't want the loader display, use `close()` to close the loader
 example:
 use dist folder
 ```html
-    <script src="https://unpkg.com/archer-loader@1.1.2/dist/archer-loader.cdn.js">
+    <script src="https://unpkg.com/archer-loader@1.1.4/dist/archer-loader.cdn.js">
     </script>
     <script>
         loader.show("#5D1000", 2.5, "123");
         //loader.close();
     </script>
+```
+Also can use a previous version, just cahnge the @[version] block.  
+An example using `1.1.2` version
+```html
+<script src="https://unpkg.com/archer-loader@1.1.2/dist/archer-loader.cdn.js"></script>
 ```
