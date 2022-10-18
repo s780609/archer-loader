@@ -4,6 +4,7 @@
   "description": "a simple javascript loader",
   "main": "archer-loader.js",
   "scripts": {
+    "build" : "npx babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

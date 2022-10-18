@@ -43,7 +43,7 @@ loader.show = async function (color, speed, text) {
   padding: 0.5em;
   border-radius:0.25em;
   /*border: solid 1px black;*/
-  background-color: #71836b;
+  background-color: ${color};
   color: white;
   }`;
   css += `.background{
