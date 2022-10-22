@@ -7,7 +7,7 @@ image:
 v1.1.4   
 ![](https://i.imgur.com/3rQeRqK.jpg)   
 v1.1.2   
-[Imgur](https://i.imgur.com/cnPtwEu.png)
+![](https://i.imgur.com/cnPtwEu.png)
 
 ## Install
 `npm install archer-loader`
