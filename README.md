@@ -4,9 +4,9 @@ a simple javascript UI loader
 It will display a rotating 1/4 colored circle, and produce a background div to cover the screen.
 
 image:    
-v1.1.4   
-![](https://i.imgur.com/3rQeRqK.jpg)   
 v1.1.2   
+![](https://i.imgur.com/3rQeRqK.jpg)   
+v1.1.4   
 ![](https://i.imgur.com/cnPtwEu.png)
 
 ## Install
