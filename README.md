@@ -4,7 +4,7 @@ a simple javascript UI loader
 It will display a rotating 1/4 colored circle, and produce a background div to cover the screen.
 
 image:    
-![](https://i.imgur.com/3rQeRqK.jpg)
+![](https://imgur.com/a/9dWURXH)
 
 ## Install
 `npm install archer-loader`
